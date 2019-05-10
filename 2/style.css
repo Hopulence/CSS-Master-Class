@@ -1,0 +1,77 @@
+.header {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}
+
+.header h1 {
+    font-size: 30px;
+    margin: 0;
+    
+}
+
+.nav {
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.nav .nav_list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_list .nav_item {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-gap : 10px;
+    text-align: center;
+}
+
+.nav_item .icon {
+    background-color: gray;
+    border-radius: 10%;
+}
+
+.nave_item .text {
+    
+}
+
+.main {
+    margin: 0;
+}
+
+.main h4 {
+    border-top: solid 1px gray;
+    margin: 0;
+}
+
+.mainGrid {
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 30vh;
+    text-align: center;
+    grid-gap: 20px;
+    border-radius: 10%;
+    
+}
+
+.mainGrid .grid_item:first-child {
+    background-color: gray;
+}
+
+.mainGrid .grid_item:nth-child(2) {
+    background-color: black;
+}
+
+.mainGrid .grid_item:nth-child(3) {
+    background-color: gray;
+}
+
+.mainGrid .grid_item:nth-child(4) {
+    background-color: black;
+}
