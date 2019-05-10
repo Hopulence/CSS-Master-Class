@@ -1,3 +1,8 @@
+:root {
+    padding: 20px;
+   /* --border-top: 1px solid gray; */
+}
+
 .header {
     margin-top: 80px;
     margin-bottom: 50px;
@@ -26,7 +31,7 @@
 
 .nav_list .nav_item {
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
     grid-gap : 10px;
     text-align: center;
 }
@@ -36,8 +41,8 @@
     border-radius: 10%;
 }
 
-.nave_item .text {
-    
+.nav_item .text {
+    font-style: bold;
 }
 
 .main {
@@ -45,7 +50,7 @@
 }
 
 .main h4 {
-    border-top: solid 1px gray;
+    
     margin: 0;
 }
 
@@ -75,3 +80,4 @@
 .mainGrid .grid_item:nth-child(4) {
     background-color: black;
 }
+
