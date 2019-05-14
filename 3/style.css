@@ -16,7 +16,7 @@
 }
 
 .main .item {
-
+  
 }
 
 .item:nth-child(1) {
@@ -44,4 +44,7 @@
     background-color: #4c90ff;
 }
 
-.item .
+.item .item_flex {
+    display: flex;
+
+}
