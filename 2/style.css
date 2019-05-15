@@ -35,7 +35,7 @@ h5 {
 }
 
 .navigation {
-    border-bottom: 1px solid darkgray;
+    border-bottom: var(--borderTop);
     padding-bottom : 50px;
 }
 
@@ -126,21 +126,29 @@ h5 {
 
 
 .recipes {
-
+    padding: 0px;
+    border-top: var(--borderTop);
+    margin-top: 30px;
 }
 
 .recipes .recipes_list {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);
-}
-
-.recipes_list:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0;
 }
 
 .recipes_list .recipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: var(--padding);
+    border-radius: 5px;
+}
 
+.recipe:nth-child(odd) {
+    background-color: rgb(248, 248, 248);
 }
 
 .recipe .recipe_name {
